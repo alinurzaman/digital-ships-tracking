@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp"
+    tools:context=".CariActivity">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutdari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:hint="Dari Tanggal (Format: YYYY/MM/DD)"
+            android:id="@+id/dari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutsampai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutdari"
+        app:passwordToggleEnabled="true"
+        >
+        <EditText
+            android:hint="Sampai Tanggal (Format: YYYY/MM/DD)"
+            android:id="@+id/sampai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_cari"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/layoutsampai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    </ProgressBar>
+    <Button
+        android:id="@+id/btn_cari"
+        android:layout_below="@id/layoutsampai"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Cari"
+        android:textColor="@color/colorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+</RelativeLayout>

@@ -1,0 +1,264 @@
+<resources>
+    <string name="app_name">Digital Mengawasi BC Gresik</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string-array name="bendera">
+        <item>AFGHANISTAN</item>
+        <item>ALBANIA</item>
+        <item>ALGERIA</item>
+        <item>AMERICAN SAMOA</item>
+        <item>ANDORRA</item>
+        <item>ANGOLA</item>
+        <item>ANGUILLA</item>
+        <item>ANTIGUA &amp; BARBUDA</item>
+        <item>ARGENTINA</item>
+        <item>ARMENIA</item>
+        <item>ARUBA</item>
+        <item>AUSTRALIA</item>
+        <item>AUSTRIA</item>
+        <item>AZERBAIJAN</item>
+        <item>BAHAMAS</item>
+        <item>BAHRAIN</item>
+        <item>BANGLADESH</item>
+        <item>BARBADOS</item>
+        <item>BELARUS</item>
+        <item>BELGIUM</item>
+        <item>BELIZE</item>
+        <item>BENIN</item>
+        <item>BERMUDA</item>
+        <item>BHUTAN</item>
+        <item>BOLIVIA</item>
+        <item>BONAIRE</item>
+        <item>BOSNIA &amp; HERZEGOVINA</item>
+        <item>BOTSWANA</item>
+        <item>BRAZIL</item>
+        <item>BRITISH INDIAN OCEAN TER</item>
+        <item>BRUNEI</item>
+        <item>BULGARIA</item>
+        <item>BURKINA FASO</item>
+        <item>BURUNDI</item>
+        <item>CAMBODIA</item>
+        <item>CAMEROON</item>
+        <item>CANADA</item>
+        <item>CANARY ISLANDS</item>
+        <item>CAPE VERDE</item>
+        <item>CAYMAN ISLANDS</item>
+        <item>CENTRAL AFRICAN REPUBLIC</item>
+        <item>CHAD</item>
+        <item>CHANNEL ISLANDS</item>
+        <item>CHILE</item>
+        <item>CHINA</item>
+        <item>CHRISTMAS ISLAND</item>
+        <item>COCOS ISLAND</item>
+        <item>COLOMBIA</item>
+        <item>COMOROS</item>
+        <item>CONGO</item>
+        <item>COOK ISLANDS</item>
+        <item>COSTA RICA</item>
+        <item>COTE DIVOIRE</item>
+        <item>CROATIA</item>
+        <item>CUBA</item>
+        <item>CURACAO</item>
+        <item>CYPRUS</item>
+        <item>CZECH REPUBLIC</item>
+        <item>DENMARK</item>
+        <item>DJIBOUTI</item>
+        <item>DOMINICA</item>
+        <item>DOMINICAN REPUBLIC</item>
+        <item>EAST TIMOR</item>
+        <item>ECUADOR</item>
+        <item>EGYPT</item>
+        <item>EL SALVADOR</item>
+        <item>EQUATORIAL GUINEA</item>
+        <item>ERITREA</item>
+        <item>ESTONIA</item>
+        <item>ETHIOPIA</item>
+        <item>FALKLAND ISLANDS</item>
+        <item>FAROE ISLANDS</item>
+        <item>FIJI</item>
+        <item>FINLAND</item>
+        <item>FRANCE</item>
+        <item>FRENCH GUIANA</item>
+        <item>FRENCH POLYNESIA</item>
+        <item>FRENCH SOUTHERN TER</item>
+        <item>GABON</item>
+        <item>GAMBIA</item>
+        <item>GEORGIA</item>
+        <item>GERMANY</item>
+        <item>GHANA</item>
+        <item>GIBRALTAR</item>
+        <item>GREAT BRITAIN</item>
+        <item>GREECE</item>
+        <item>GREENLAND</item>
+        <item>GRENADA</item>
+        <item>GUADELOUPE</item>
+        <item>GUAM</item>
+        <item>GUATEMALA</item>
+        <item>GUINEA</item>
+        <item>GUYANA</item>
+        <item>HAITI</item>
+        <item>HAWAII</item>
+        <item>HONDURAS</item>
+        <item>HONG KONG</item>
+        <item>HUNGARY</item>
+        <item>ICELAND</item>
+        <item>INDONESIA</item>
+        <item>INDIA</item>
+        <item>IRAN</item>
+        <item>IRAQ</item>
+        <item>IRELAND</item>
+        <item>ISLE OF MAN</item>
+        <item>ISRAEL</item>
+        <item>ITALY</item>
+        <item>JAMAICA</item>
+        <item>JAPAN</item>
+        <item>JORDAN</item>
+        <item>KAZAKHSTAN</item>
+        <item>KENYA</item>
+        <item>KIRIBATI</item>
+        <item>KOREA NORTH</item>
+        <item>KOREA SOUTH</item>
+        <item>KUWAIT</item>
+        <item>KYRGYZSTAN</item>
+        <item>LAOS</item>
+        <item>LATVIA</item>
+        <item>LEBANON</item>
+        <item>LESOTHO</item>
+        <item>LIBERIA</item>
+        <item>LIBYA</item>
+        <item>LIECHTENSTEIN</item>
+        <item>LITHUANIA</item>
+        <item>LUXEMBOURG</item>
+        <item>MACAU</item>
+        <item>MACEDONIA</item>
+        <item>MADAGASCAR</item>
+        <item>MALAYSIA</item>
+        <item>MALAWI</item>
+        <item>MALDIVES</item>
+        <item>MALI</item>
+        <item>MALTA</item>
+        <item>MARSHALL ISLANDS</item>
+        <item>MARTINIQUE</item>
+        <item>MAURITANIA</item>
+        <item>MAURITIUS</item>
+        <item>MAYOTTE</item>
+        <item>MEXICO</item>
+        <item>MIDWAY ISLANDS</item>
+        <item>MOLDOVA</item>
+        <item>MONACO</item>
+        <item>MONGOLIA</item>
+        <item>MONTSERRAT</item>
+        <item>MOROCCO</item>
+        <item>MOZAMBIQUE</item>
+        <item>MYANMAR</item>
+        <item>NAMBIA</item>
+        <item>NAURU</item>
+        <item>NEPAL</item>
+        <item>NETHERLAND ANTILLES</item>
+        <item>NETHERLANDS (HOLLAND, EUROPE)</item>
+        <item>NEVIS</item>
+        <item>NEW CALEDONIA</item>
+        <item>NEW ZEALAND</item>
+        <item>NICARAGUA</item>
+        <item>NIGER</item>
+        <item>NIGERIA</item>
+        <item>NIUE</item>
+        <item>NORFOLK ISLAND</item>
+        <item>NORWAY</item>
+        <item>OMAN</item>
+        <item>PAKISTAN</item>
+        <item>PALAU ISLAND</item>
+        <item>PALESTINE</item>
+        <item>PANAMA</item>
+        <item>PAPUA NEW GUINEA</item>
+        <item>PARAGUAY</item>
+        <item>PERU</item>
+        <item>PHILIPPINES</item>
+        <item>PITCAIRN ISLAND</item>
+        <item>POLAND</item>
+        <item>PORTUGAL</item>
+        <item>PUERTO RICO</item>
+        <item>QATAR</item>
+        <item>REPUBLIC OF MONTENEGRO</item>
+        <item>REPUBLIC OF SERBIA</item>
+        <item>REUNION</item>
+        <item>ROMANIA</item>
+        <item>RUSSIA</item>
+        <item>RWANDA</item>
+        <item>ST BARTHELEMY</item>
+        <item>ST EUSTATIUS</item>
+        <item>ST HELENA</item>
+        <item>ST KITTS-NEVIS</item>
+        <item>ST LUCIA</item>
+        <item>ST MAARTEN</item>
+        <item>ST PIERRE &amp; MIQUELON</item>
+        <item>ST VINCENT &amp; GRENADINES</item>
+        <item>SAIPAN</item>
+        <item>SAMOA</item>
+        <item>SAMOA AMERICAN</item>
+        <item>SAN MARINO</item>
+        <item>SAO TOME &amp; PRINCIPE</item>
+        <item>SAUDI ARABIA</item>
+        <item>SENEGAL</item>
+        <item>SEYCHELLES</item>
+        <item>SIERRA LEONE</item>
+        <item>SINGAPORE</item>
+        <item>SLOVAKIA</item>
+        <item>SLOVENIA</item>
+        <item>SOLOMON ISLANDS</item>
+        <item>SOMALIA</item>
+        <item>SOUTH AFRICA</item>
+        <item>SPAIN</item>
+        <item>SRI LANKA</item>
+        <item>SUDAN</item>
+        <item>SURINAME</item>
+        <item>SWAZILAND</item>
+        <item>SWEDEN</item>
+        <item>SWITZERLAND</item>
+        <item>SYRIA</item>
+        <item>TAHITI</item>
+        <item>TAIWAN</item>
+        <item>TAJIKISTAN</item>
+        <item>TANZANIA</item>
+        <item>THAILAND</item>
+        <item>TOGO</item>
+        <item>TOKELAU</item>
+        <item>TONGA</item>
+        <item>TRINIDAD &amp; TOBAGO</item>
+        <item>TUNISIA</item>
+        <item>TURKEY</item>
+        <item>TURKMENISTAN</item>
+        <item>TURKS &amp; CAICOS IS</item>
+        <item>TUVALU</item>
+        <item>UGANDA</item>
+        <item>UNITED KINGDOM</item>
+        <item>UKRAINE</item>
+        <item>UNITED ARAB EMIRATES</item>
+        <item>UNITED STATES OF AMERICA</item>
+        <item>URUGUAY</item>
+        <item>UZBEKISTAN</item>
+        <item>VANUATU</item>
+        <item>VATICAN CITY STATE</item>
+        <item>VENEZUELA</item>
+        <item>VIETNAM</item>
+        <item>VIRGIN ISLANDS (BRIT)</item>
+        <item>VIRGIN ISLANDS (USA)</item>
+        <item>WAKE ISLAND</item>
+        <item>WALLIS &amp; FUTANA IS</item>
+        <item>YEMEN</item>
+        <item>ZAIRE</item>
+        <item>ZAMBIA</item>
+        <item>ZIMBABWE</item>
+    </string-array>
+
+    <string-array name="kategori">
+        <item>PADAT</item>
+        <item>CAIR</item>
+        <item>GAS</item>
+    </string-array>
+    <string-array name="impor">
+        <item>IMPOR</item>
+        <item>EKSPOR</item>
+        <item>ANTAR PULAU</item>
+    </string-array>
+</resources>

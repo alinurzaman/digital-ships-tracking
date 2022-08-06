@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="10dp"
+    tools:context=".LaporActivity"
+
+    >
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutnamasarkut"
+        >
+        <EditText
+            android:id="@+id/namasarkut"
+            android:hint="Nama Sarkut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutnamasarkut"
+        android:id="@+id/layoutbendera"
+        >
+        <Spinner
+            android:id="@+id/bendera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:paddingBottom="10dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutbendera"
+        android:id="@+id/layoutlokasi">
+    <Spinner
+        android:id="@+id/lokasisandar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:paddingBottom="10dp"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layouttanggaleta"
+        android:layout_below="@id/layoutlokasi"
+        >
+        <EditText
+            android:id="@+id/tanggaleta"
+            android:hint="Tanggal ETA (Format: DD/MM/YYYY)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutpukuleta"
+        android:layout_below="@id/layouttanggaleta"
+        >
+        <EditText
+            android:id="@+id/pukuleta"
+            android:hint="Pukul ETA (Format: HH:MM)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layouttanggaletb"
+        android:layout_below="@id/layoutpukuleta"
+        >
+        <EditText
+            android:id="@+id/tanggaletb"
+            android:hint="Tanggal ETB (Format: DD/MM/YYYY)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutpukuletb"
+        android:layout_below="@id/layouttanggaletb"
+        >
+        <EditText
+            android:id="@+id/pukuletb"
+            android:hint="Pukul ETB (Format: HH:MM)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutkategori"
+        android:layout_below="@id/layoutpukuletb">
+    <Spinner
+        android:id="@+id/kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:paddingBottom="10dp"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutmuatan"
+        android:layout_below="@id/layoutkategori"
+        >
+        <EditText
+            android:id="@+id/muatan"
+            android:hint="Muatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutmuatan"
+        android:id="@+id/layoutkegiatan"
+        >
+
+    <Spinner
+        android:id="@+id/impor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:paddingBottom="10dp"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingsubmit"
+        android:layout_below="@id/layoutkegiatan"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/layoutkegiatan"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="@color/colorText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Button>
+</RelativeLayout>
